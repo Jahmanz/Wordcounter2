@@ -20,5 +20,19 @@ namespace WordCounter.Tests
 
       Assert.AreEqual(1, expectedOutput);
     }
+    [TestMethod]
+    public void CountWords_ReturnTwoLetterWord()
+    {
+
+      string inputSentence = "jahmanz";
+      string inputWord = "jahmanz";
+      RepeatCounter testInputtedSentence = new RepeatCounter(inputSentence, inputWord);
+
+
+      int expectedOutput = RepeatCounter.CountWords(inputSentence, inputWord);
+
+
+      Assert.AreEqual(1, expectedOutput);
+    }
   }
 }
