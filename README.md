@@ -14,12 +14,7 @@
 
 * Next, see if it can count multiple words.
   * For example, "jahmanz is jahmanz" should output 2 word count.
-
-* Next, see if it can count words with punctuation in phrase.
-  * "For example, "jahmanz is jahmanz!" should count only two words.
-
-* When that is done, move on to full phrases.
-  * In the beggining, the man, and the dog were friends." should count "the" 3 times.
+* Next, see if controller connections are working.
 
 ## Setup/Installation Requirements
 
